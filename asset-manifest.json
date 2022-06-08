@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/web-portA3/static/css/main.1cad824b.css",
+    "main.js": "/web-portA3/static/js/main.b668e293.js",
+    "static/media/NPLogo1.1.png": "/web-portA3/static/media/NPLogo1.1.ca35075abd0488bbb9ec.png",
+    "index.html": "/web-portA3/index.html",
+    "main.1cad824b.css.map": "/web-portA3/static/css/main.1cad824b.css.map",
+    "main.b668e293.js.map": "/web-portA3/static/js/main.b668e293.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cad824b.css",
+    "static/js/main.b668e293.js"
+  ]
+}
