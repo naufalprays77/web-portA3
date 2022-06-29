@@ -7,7 +7,7 @@ function Maintenance() {
       <div className="text-center">
         <h1 className="text-[30px]">Oops, sorry this website page is currently under construction.</h1>
         <h2 className="text-[20px] mb-10"> Please come back another time</h2>
-        <Link to="/" className="bg-black px-5 py-2 text-white ">
+        <Link to="/web-portA3" className="bg-black px-5 py-2 text-white ">
           BackToHome
         </Link>
       </div>
