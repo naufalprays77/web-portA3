@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/web-portA3/static/css/main.feeab7aa.css",
-    "main.js": "/web-portA3/static/js/main.deeb2c4c.js",
+    "main.css": "/web-portA3/static/css/main.20971c31.css",
+    "main.js": "/web-portA3/static/js/main.30a9d2c8.js",
     "static/media/NPLogo1.1.png": "/web-portA3/static/media/NPLogo1.1.ca35075abd0488bbb9ec.png",
     "static/media/Api.png": "/web-portA3/static/media/Api.02f02c41b4ea4484e148.png",
     "static/media/ToDoList.png": "/web-portA3/static/media/ToDoList.2641bbb50ff2f7de36ae.png",
     "static/media/Calculator.png": "/web-portA3/static/media/Calculator.e048f7aec818b70586de.png",
     "index.html": "/web-portA3/index.html",
-    "main.feeab7aa.css.map": "/web-portA3/static/css/main.feeab7aa.css.map",
-    "main.deeb2c4c.js.map": "/web-portA3/static/js/main.deeb2c4c.js.map"
+    "main.20971c31.css.map": "/web-portA3/static/css/main.20971c31.css.map",
+    "main.30a9d2c8.js.map": "/web-portA3/static/js/main.30a9d2c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.feeab7aa.css",
-    "static/js/main.deeb2c4c.js"
+    "static/css/main.20971c31.css",
+    "static/js/main.30a9d2c8.js"
   ]
 }
