@@ -13,8 +13,8 @@ const ToDoList = () => {
   }, [todo]);
 
   return (
-    <div className="container bg-todo w-[100%] md:min-h-[100vh] flex justify-center items-center">
-      <div className="bg-[#cbcbcb2d] md:w-[500px] w-[100%] min-h-[600px] p-[20px] box-border md:rounded-md shadow-sm md:mb-[10px] pb-[100px]">
+    <div className="container bg-Kalaplist w-[100%] md:min-h-[50vh] flex justify-center items-center md:py-10">
+      <div className="bg-[#cbcbcb2d] md:bg-[#447D89] md:w-[500px] w-[100%] min-h-[600px] p-[20px] box-border md:rounded-md shadow-sm md:mb-[10px] pb-[100px]">
         <div>
           <HeadTodo />
         </div>
