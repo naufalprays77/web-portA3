@@ -1,0 +1,149 @@
+.API-container {
+  width: 100%;
+  padding-bottom: 3rem;
+  background-color: #89a1af;
+}
+
+.API-content {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+}
+.API-container h4 {
+  text-transform: uppercase;
+  padding: 50px;
+  font-size: 50px;
+}
+
+/* SearchFlex */
+.API-container .search-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.API-container .search-flex .link-api {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.API-container .search-flex .link-api:hover {
+  color: white;
+  background-color: rgb(81, 81, 81);
+}
+
+.API-container .search-style {
+  justify-content: end;
+  height: 30px;
+  width: 30%;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+/* End SearchFlex */
+
+/* Card of Table */
+.API-container .card-flex {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-products {
+  flex: 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card-products ul {
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+}
+
+.card-products ul .size-image {
+  width: 40%;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.card-products ul .title-data {
+  font-weight: 700;
+}
+
+.card-products ul .data-content {
+  margin-top: 10px;
+}
+
+.card-products ul .data-content .data-content2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px 0px;
+}
+
+.card-products ul .data-content .data-content2 li {
+  margin: 0 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.card-products ul .data-content .data-content2 li img {
+  width: 15px;
+  height: 15px;
+}
+/* End Card of Table */
+
+/* Responsive Display */
+@media only screen and (min-width: 1440px) {
+  .card-products {
+    flex: 20% !important;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1439px) {
+  .card-products {
+    flex: 30% !important;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .card-products {
+    flex: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .API-container h4 {
+    font-size: 30px;
+    padding: 30px 10px;
+  }
+
+  .API-container .search-flex {
+    flex-direction: column;
+  }
+
+  .API-container .search-flex .link-api {
+    width: fit-content;
+    margin: 0px auto;
+  }
+
+  .API-container .search-style {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .card-products {
+    flex: 100%;
+  }
+}

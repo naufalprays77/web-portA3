@@ -24,16 +24,13 @@ function Calculator() {
     }
   };
   return (
-    <section id="Calculator" className="flex flex-col items-center self-start min-h-[85vh] bg-gradient-to-r from-cyan-500 to-blue-500 pb-5">
-      <div className="text-center mt-5">
-        <h1 className="text-[30px] font-[600] xl:text-[45px]">Based Simple Calculator</h1>
-      </div>
-      <div className="container flex flex-row w-[100%]">
+    <section id="Calculator" className="flex flex-col items-center self-start bg-Kalaplist py-6">
+      <div className="container flex flex-row w-[90%]">
         <div className="mt-5 xl:mt-10  mx-auto text-center self-center border-10 border-black w-[90%] md:w-[40%] lg:w-[25%] bg-black">
           <form>
-            <input type="text" value={number} className="h-[80px] w-[100%] bg-black text-white my-5 text-right font-bold text-[30px] p-4 tracking-wide" />
+            <input type="text" value={number} className="h-[70px] w-[100%] bg-black text-white my-5 text-right font-bold text-[30px] p-4 tracking-wide" />
           </form>
-          <div className="grid grid-cols-44 auto-rows-2fr cursor-pointer bg-black gap-1 p-4">
+          <div className="grid grid-cols-44 auto-rows-2fr cursor-pointer bg-black gap-1 p-3 ">
             <button onClick={clear} className="p-3 bg-[#191919] text-white">
               AC
             </button>
