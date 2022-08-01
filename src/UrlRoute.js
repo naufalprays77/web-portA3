@@ -12,9 +12,9 @@ function Url() {
   return (
     <Routes>
       <Route path="/web-portA3" element={<Home />} />
-      <Route path="/ToDoList" element={<ToDoList />} />
-      <Route path="/Calculator" element={<Calculator />} />
-      <Route path="/API" element={<API />} />
+      <Route path="/web-portA3/ToDoList" element={<ToDoList />} />
+      <Route path="/web-portA3/Calculator" element={<Calculator />} />
+      <Route path="/web-portA3/API" element={<API />} />
     </Routes>
   );
 }
